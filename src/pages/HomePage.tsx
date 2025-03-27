@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "../css/HomePage.css";
 import ScrollList from "../components/homepage/ScrollList";
-import SplashScreen from "../components/splashpage/SplashScreen";
 import Header from "../components/homepage/header"; // 올바르게 Header 컴포넌트 불러오기
 import AboutMeContent from "../components/homepage/AboutMeContent";
 import ProjectsContent from "../components/homepage/ProjectsContent";
@@ -12,7 +11,6 @@ import SkillContent from "../components/homepage/SkillContent";
 import BottomContent from "../components/homepage/BottomContent";
 
 const HomePage: React.FC = () => {
-  const [showSplash, setShowSplash] = useState(true);
   const [fadeIn, setFadeIn] = useState(false);
   const navigate = useNavigate();
 
@@ -34,35 +32,19 @@ const HomePage: React.FC = () => {
   };
 
   useEffect(() => {
-    if (!showSplash) {
-      setTimeout(() => setFadeIn(true), 100); // Splash가 사라진 후 약간의 딜레이 후 실행
-    }
-  }, [showSplash]);
+    setTimeout(() => setFadeIn(true), 100); // 페이지가 로드된 후 약간의 딜레이 후 fade-in 효과
+  }, []);
 
   return (
-    <>
-      {showSplash ? (
-        <SplashScreen onFinish={() => setShowSplash(false)} />
-      ) : (
-        <>
-          <Header scrollToSection={scrollToSection} scrollToTop={scrollToTop} />
-          <div className={`homepage-container ${fadeIn ? "fade-in" : ""}`}>
-
-            <HeroContent scrollToSection={scrollToSection}/>
-
-            <AboutMeContent />
-
-            <InterviewContent />
-
-            <SkillContent />
-
-            <ProjectsContent />
-
-            <BottomContent />
-          </div>
-        </>
-      )}
-    </>
+    <div className={`homepage-container ${fadeIn ? "fade-in" : ""}`}>
+      <Header scrollToSection={scrollToSection} scrollToTop={scrollToTop} />
+      <HeroContent scrollToSection={scrollToSection} />
+      <AboutMeContent />
+      <InterviewContent />
+      <SkillContent />
+      <ProjectsContent />
+      <BottomContent />
+    </div>
   );
 };
 
