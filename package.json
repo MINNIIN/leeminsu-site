@@ -1,5 +1,6 @@
 {
   "name": "portfolio-site",
+  "homepage": "https://USERNAME.github.io/REPOSITORY",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
