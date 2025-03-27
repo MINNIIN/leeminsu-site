@@ -1,15 +1,14 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage"; // HomePage 불러오기
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
 import DmaPage from "./pages/DmaPage";
 import FestaNowPage from "./pages/FestaNowPage";
 import CullinanPage from "./pages/CullinanPage";
 
 function App() {
   return (
-    <Router basename="/leeminsu-site">
+    <Router>
       <Routes>
-        {/* 기본 경로 ('/')에 HomePage를 연결 */}
         <Route path="/" element={<HomePage />} />
         <Route path="/dmapage" element={<DmaPage />} />
         <Route path="/festanowpage" element={<FestaNowPage />} />
