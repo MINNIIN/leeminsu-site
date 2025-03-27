@@ -7,14 +7,13 @@ import CullinanPage from "./pages/CullinanPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/leeminsu-site">
       <Routes>
         {/* 기본 경로 ('/')에 HomePage를 연결 */}
         <Route path="/" element={<HomePage />} />
         <Route path="/dmapage" element={<DmaPage />} />
         <Route path="/festanowpage" element={<FestaNowPage />} />
         <Route path="/cullinanpage" element={<CullinanPage />} />
-        
       </Routes>
     </Router>
   );
