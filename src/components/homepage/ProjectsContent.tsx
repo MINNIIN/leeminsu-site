@@ -5,6 +5,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Link } from "react-router-dom";
 
 interface Project {
   title: string;
@@ -69,7 +70,11 @@ const ProjectsContent: React.FC = () => {
                   <h3>{project.title}</h3>
                   <p>{project.description}</p>
                   
-                  {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">🔗 자세히 보기</a>}
+                  {project.link && (
+  <Link to={project.link} className="project-link">
+    🔗 자세히 보기
+  </Link>
+)}
                 </div>
               </div>
               </div>
