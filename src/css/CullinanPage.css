@@ -1,0 +1,71 @@
+.cullinan-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background: radial-gradient(circle at top, #222, #000);
+    color: white;
+    text-align: center;
+  }
+  
+  .cullinan-title {
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .cullinan-title::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 60%;
+    height: 4px;
+    background: linear-gradient(90deg, #ffffff88, transparent);
+    transform: translateX(-50%);
+  }
+
+  .cullinan-middle-container {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .cullinan-card {
+    margin-top: 20px;
+    padding: 20px;
+    width: 60%;
+    margin: 20px;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
+  }
+  
+  .cullinan-video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .cullinan-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .cullinan-gif {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 100px;
+  }

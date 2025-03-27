@@ -1,0 +1,36 @@
+.orbit-container {
+    position: relative;
+    width: 500px; /* 회전하는 원의 크기 조절 */
+    height: 500px;
+    animation: orbit 3s linear infinite; /* 3초 동안 한 바퀴 회전 */
+}
+
+/* 개별 원 */
+.circle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 원 각각의 위치 설정 */
+.circle:nth-child(1) { background-color: #e74c3c; top: 50%; left: 100%; } /* 0도 (오른쪽) */
+.circle:nth-child(2) { background-color: #f39c12; top: 22%; left: 88%; } /* 40도 */
+.circle:nth-child(3) { background-color: #2ecc71; top: 5%; left: 65%; } /* 80도 */
+.circle:nth-child(4) { background-color: #9b59b6; top: 5%; left: 35%; } /* 120도 */
+.circle:nth-child(5) { background-color: #3498db; top: 22%; left: 12%; } /* 160도 */
+.circle:nth-child(6) { background-color: #a23333; top: 50%; left: 0%; } /* 200도 (왼쪽) */
+.circle:nth-child(7) { background-color: #91a141; top: 78%; left: 12%; } /* 240도 */
+.circle:nth-child(8) { background-color: #453f47; top: 95%; left: 35%; } /* 280도 */
+.circle:nth-child(9) { background-color: #1abc9c; top: 95%; left: 65%; } /* 320도 */
+
+/* 컨테이너를 회전시키는 애니메이션 */
+@keyframes orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

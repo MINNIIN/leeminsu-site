@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage"; // HomePage 불러오기
+import DmaPage from "./pages/DmaPage";
+import FestaNowPage from "./pages/FestaNowPage";
+import CullinanPage from "./pages/CullinanPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        {/* 기본 경로 ('/')에 HomePage를 연결 */}
+        <Route path="/" element={<HomePage />} />
+        <Route path="/dmapage" element={<DmaPage />} />
+        <Route path="/festanowpage" element={<FestaNowPage />} />
+        <Route path="/cullinanpage" element={<CullinanPage />} />
+        
+      </Routes>
+    </Router>
   );
 }
 

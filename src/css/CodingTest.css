@@ -1,0 +1,39 @@
+.coding-test-container {
+    position: relative;  /* 텍스트가 이미지 아래에 올 수 있도록 */
+    padding-left: 30px;   /* 텍스트가 이미지와 겹치지 않도록 왼쪽에 여백을 추가 */
+  }
+  
+.task-container {
+    width: 500vh;
+    height: 5vh;
+    flex-direction: row;
+    display: flex;  /* flexbox 활성화 */
+    align-items: center;
+}
+
+.task-list-container {
+    width: 500vh;
+    height: 5vh;
+    flex-direction: column;
+    display: flex;  /* flexbox 활성화 */
+    align-items: center;
+}
+
+input {
+    width: 200px;  /* 원하는 크기로 설정 */
+    height: 20px;  /* 원하는 크기로 설정 */
+    padding: 5px;  /* 여백 추가 */
+    font-size: 16px;  /* 폰트 크기 설정 */
+    border: 1px solid #ccc;  /* 테두리 설정 */
+    margin-left: 10px;
+    border-radius: 5px;  /* 둥근 테두리 */
+}
+
+button {
+    margin-left: 10px;
+}
+
+h5 {
+    margin-left: 10px;
+    font-weight: normal;  /* 텍스트 굵기 설정 (기본 두께로 설정) */
+}

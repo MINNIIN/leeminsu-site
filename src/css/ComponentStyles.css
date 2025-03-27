@@ -1,0 +1,30 @@
+.homepage-box {
+    background-color: blue;  /* 외부 CSS에서 배경색 설정 */
+    transition: width 0.3s, height 0.3s; /* 크기 변경 시 부드럽게 애니메이션 */
+}
+
+.back-button {
+    width: 10vh;
+    height: 10vh;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: transform 0.3s;
+}
+
+@media (max-width: 768px) {
+    .back-button {
+        width: 5vh;
+        height: 5vh;
+        cursor: pointer;
+        position:absolute;
+        top: 10px;
+        left: 10px;
+        transition: transform 0.3s;
+    }
+}
+
+.back-button:hover {
+    transform: scale(1.1);  /* 호버 시 이미지 크기 살짝 커짐 */
+}
