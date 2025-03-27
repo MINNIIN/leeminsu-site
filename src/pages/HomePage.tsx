@@ -36,8 +36,10 @@ const HomePage: React.FC = () => {
   }, []);
 
   return (
+    <>
+    <Header scrollToSection={scrollToSection} scrollToTop={scrollToTop} />
     <div className={`homepage-container ${fadeIn ? "fade-in" : ""}`}>
-      <Header scrollToSection={scrollToSection} scrollToTop={scrollToTop} />
+      
       <HeroContent scrollToSection={scrollToSection} />
       <AboutMeContent />
       <InterviewContent />
@@ -45,6 +47,7 @@ const HomePage: React.FC = () => {
       <ProjectsContent />
       <BottomContent />
     </div>
+    </>
   );
 };
 
