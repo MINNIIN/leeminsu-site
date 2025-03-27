@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/leeminsu-site/static/css/main.9bbb4057.css",
-    "main.js": "/leeminsu-site/static/js/main.eed01374.js",
+    "main.js": "/leeminsu-site/static/js/main.9df84b1f.js",
     "static/js/453.19a46213.chunk.js": "/leeminsu-site/static/js/453.19a46213.chunk.js",
     "static/media/CullinanGif.gif": "/leeminsu-site/static/media/CullinanGif.37b9e6e226ab74955a3c.gif",
     "static/media/FestanowSplash.png": "/leeminsu-site/static/media/FestanowSplash.a823a2b58024744025d1.png",
@@ -51,11 +51,11 @@
     "static/media/reactnative1.png": "/leeminsu-site/static/media/reactnative1.3461f75ce5b7a9cb595c.png",
     "index.html": "/leeminsu-site/index.html",
     "main.9bbb4057.css.map": "/leeminsu-site/static/css/main.9bbb4057.css.map",
-    "main.eed01374.js.map": "/leeminsu-site/static/js/main.eed01374.js.map",
+    "main.9df84b1f.js.map": "/leeminsu-site/static/js/main.9df84b1f.js.map",
     "453.19a46213.chunk.js.map": "/leeminsu-site/static/js/453.19a46213.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bbb4057.css",
-    "static/js/main.eed01374.js"
+    "static/js/main.9df84b1f.js"
   ]
 }
