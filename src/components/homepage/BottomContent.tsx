@@ -7,7 +7,7 @@ const BottomContent: React.FC = () => {
       <footer className="bottom-content">
       {/* <h2>봐주셔서 감사합니다 </h2> */}
       
-      <p className="bottom-subtext">Using : React, TypeScript, Tailwind CSS</p>
+      <p className="bottom-subtext">Using : React, TypeScript, CSS</p>
       <p className="bottom-copyright">© 2025 LEE MINSU. All Rights Reserved.</p>
     </footer>
     </section>
