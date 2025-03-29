@@ -53,12 +53,12 @@ const DmaPage: React.FC = () => {
         <div className="dma-myposition">
         
         <div className="dma-role-box">
-            <h4>백엔드 서버 구축</h4>
+            <h4>모니터링 API 구축</h4>
         <div className="dma-role-content">
             <ul>
-                <li>• Django 서버에 딥러닝 모델 배포</li>
+                <li>• 학습된 딥러닝 모델 로드 및 분석 API 제공</li>
                 <li>• 웹소켓 통신으로 React 클라이언트와 연결</li>
-                <li>• 클라이언트는 실시간 운전자 모습을 서버로 전송하고 딥러닝 모델이 분석하여 결과 반환</li>
+                <li>• React 클라이언트에서 운전자 모습을 실시간 모니터링, Django 모니터링 API를 통한 운전자 모습 분석 및 결과 반환</li>
 
                 <div className="dma-role-content-image">
                 <img src={DriverMonitoring} className="dma-role-content-monitoring"></img>
