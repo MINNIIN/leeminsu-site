@@ -13,7 +13,7 @@ import JoinMeetingPage from "../../images/festanow/FestanowJoinMeeting.png";
 import ApplicationsPage from "../../images/festanow/FestanowApplicationList.png";
 import ApplicationOption from "../../images/festanow/FestanowApplicationsOption.png";
 import MyMeetingApplicationList from "../../images/festanow/FestanowMyMeetingApplicationList.png";
-import MyPage from "../../images/festanow/FestanowMypage.png";
+import MyPage from "../../images/festanow/FestanowMyPage.png";
 
 const images = [
   { name: "실행 화면", src: SplashPage },
