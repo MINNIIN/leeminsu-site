@@ -14,12 +14,14 @@ import ApplicationsPage from "../../images/festanow/FestanowApplicationList.png"
 import ApplicationOption from "../../images/festanow/FestanowApplicationsOption.png";
 import MyMeetingApplicationList from "../../images/festanow/FestanowMyMeetingApplicationList.png";
 import MyPage from "../../images/festanow/FestanowMyPage.png";
+import PerformanceList from "../../images/festanow/PerformanceList.png"
 
 const images = [
   { name: "실행 화면", src: SplashPage },
   { name: "로그인 페이지", src: LoginPage },
   { name: "메인 페이지", src: MainPage },
-  { name: "게시판 페이지", src: MeetingListPage },
+  { name: "진행 중인 공연 조회", src: PerformanceList },
+  { name: "모임 페이지", src: MeetingListPage },
   { name: "게시글 작성", src: CreateMeetingPage },
   { name: "게시글 확인", src: MeetingPage },
   { name: "게시글 검색", src: MeetingSearchPage },
