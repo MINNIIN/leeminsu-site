@@ -82,14 +82,13 @@ const FestaNowPage = () => {
                     <div className="slide-content">
                         <h2>담당 역할</h2>
                         <ul>
-                        <li>
-                            <span className="red-check">✔</span> Firebase Authentication과 Firestore Database을 활용한 회원가입, 로그인 및 회원 정보 관리
-                        </li>
                         <li><span className="red-check">✔</span> 앱 인터페이스 및 주요 기능 개발, 백엔드 서버 구축, 데이터베이스 관리</li>
+                        <li><span className="red-check">✔</span> Firebase Authentication과 Firestore Database을 활용한 회원가입, 로그인 및 회원 정보 관리</li>
+                        <li><span className="red-check">✔</span> 공연 정보 API를 활용한 진행 중인 공연 검색 및 상세 정보 조회 기능 구현</li>
                         <li><span className="red-check">✔</span> Firestore Database를 이용한 게시글 데이터 관리 및 AWS S3 버킷을 활용한 사용자 업로드 이미지 저장 및 관리</li>
                         <li><span className="red-check">✔</span> Node.js를 활용 게시글 조회 및 검색 API 구축</li>
                         <li><span className="red-check">✔</span> Spring Boot와 FCM을 활용한 모임 신청 알림, 신청서 조회 및 신청서 상태 관리(승인, 거절, 취소) API 구축</li>
-                        <li><span className="red-check">✔</span> API → AWS EC2 인스턴스에 배포 → 앱 실행 시 자동화</li>
+                        <li><span className="red-check">✔</span> API → AWS EC2 인스턴스 배포 → 앱 실행 시 자동화</li>
                         </ul>
                     </div>
                 </SwiperSlide>

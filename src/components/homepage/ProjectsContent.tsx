@@ -25,7 +25,7 @@ const projects: Project[] = [
   },
   {
     title: "FestaNow",
-    description: "공연 정보를 조회하고 공연에 함께 갈 동행자를 쉽고 빠르게 모집할 수 있는 서비스입니다. (진행 중)",
+    description: "공연 정보를 조회하고 공연에 함께 갈 동행자를 쉽고 빠르게 모집할 수 있는 서비스입니다.",
     technologies: ["React Native", "TypeScript", "Spring Boot", "1인 개발"],
     image: require("../../images/project/festanow.png"),
     link: "/festanowpage"
