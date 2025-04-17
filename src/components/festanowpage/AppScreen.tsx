@@ -15,7 +15,7 @@ import ApplicationOption from "../../images/festanow/FestanowApplicationsOption.
 import MyMeetingApplicationList from "../../images/festanow/FestanowMyMeetingApplicationList.png";
 import MyPage from "../../images/festanow/FestanowMyPage.png";
 import PerformanceList from "../../images/festanow/PerformanceList.png"
-import ChatRoom from "../../images/festanow/FestanowChatRoom.png";
+import ChatRoom from "../../images/festanow/FestaNowChatRoom.png";
 
 const images = [
   { name: "실행 화면", src: SplashPage },
