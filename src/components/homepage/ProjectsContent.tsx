@@ -6,6 +6,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 
 interface Project {
   title: string;
@@ -39,12 +42,39 @@ const projects: Project[] = [
   }
 ];
 
-const ProjectsContent: React.FC = () => {
+const Box: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
+
   return (
-    <section id="projects" className="projects">
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 50 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      className="projects-slider-container" // 기존 스타일 그대로 유지
+    >
+      {children}
+    </motion.div>
+  );
+};
+
+const ProjectsContent: React.FC = () => {
+  const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.3,
+      });
+
+  return (
+    <section id="projects" className="projects" ref={ref}>
+      <motion.div
+                    className="hero-content"
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={inView ? { opacity: 1, y: 0 } : {}}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
+                  >
       <h2>PROJECT</h2>
       {/* 슬라이드 컨테이너 */}
-      <div className="projects-slider-container">
+      <Box>
         <Swiper
           modules={[Navigation, Pagination]}
           navigation
@@ -81,7 +111,8 @@ const ProjectsContent: React.FC = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+        </Box>
+      </motion.div>
     </section>
   );
 };
