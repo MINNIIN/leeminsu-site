@@ -5,14 +5,14 @@ import DmaPage from "./pages/DmaPage";
 import FestaNowPage from "./pages/FestaNowPage";
 import CullinanPage from "./pages/CullinanPage";
 import ScrollToTop from "./ScrollToTop";
-import SplashScreen from "./components/splashpage/SplashScreen";
+// import SplashScreen from "./components/splashpage/SplashScreen";
 
 const App: React.FC = () => {
   return (
     <Router>  {/* 최상단에서 Router 감싸기 */}
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<SplashScreen />} />
+        {/* <Route path="/" element={<SplashScreen />} /> */}
         <Route path="/home" element={<HomePage />} />
         <Route path="/dmapage" element={<DmaPage />} />
         <Route path="/festanowpage" element={<FestaNowPage />} />

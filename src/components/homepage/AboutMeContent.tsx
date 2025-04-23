@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import '../../css/HomePage.css';
 import MyProfile from '../../images/MyProfile.jpeg';
+import GitHubIcon from '../../images/SkillImages/github.png';
+import TistoryIcon from '../../images/SkillImages/tistory.png';
 
 const Box: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
@@ -39,6 +41,7 @@ const AboutMeContent: React.FC = () => {
             <img src={MyProfile} alt="My Photo" style={{ width: '100%', height: 'auto', transform: 'translateY(-15%)' }} />
           </div>
 
+          <div className="about-contact-introduction">
           <div className="about-text">
             <p>
               백석대학교 첨단IT학부를 전공하며 컴퓨터 공학 이론과 프로그래밍 및 인공지능, 빅데이터 등 다양한 분야를 학습하였습니다.
@@ -56,12 +59,18 @@ const AboutMeContent: React.FC = () => {
           </div>
 
           <div className="about-contact-link">
-            <h3 className="about-contact-title">LINKS</h3>
-            <h4 className="about-contact-text">
-              <a href="https://github.com/MINNIIN" target="_blank" rel="noopener noreferrer">GitHub</a> |  
-              <a href="https://codingco.tistory.com/" target="_blank" rel="noopener noreferrer">Tistory</a>
-            </h4>
+  <h3 className="about-contact-title">LINKS</h3>
+  <div className="about-contact-icons">
+    <a href="https://github.com/MINNIIN" target="_blank" rel="noopener noreferrer">
+      <img src={GitHubIcon} alt="GitHub" className="icon-button" />
+    </a>
+    <a href="https://codingco.tistory.com/" target="_blank" rel="noopener noreferrer">
+      <img src={TistoryIcon} alt="Tistory" className="icon-button" />
+    </a>
+  </div>
+</div>
           </div>
+          
           </Box>
       </motion.div>
     </section>
