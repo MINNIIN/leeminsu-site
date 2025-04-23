@@ -12,7 +12,7 @@ const App: React.FC = () => {
     <Router>  {/* 최상단에서 Router 감싸기 */}
       <ScrollToTop />
       <Routes>
-        {/* <Route path="/" element={<SplashScreen />} /> */}
+        <Route path="/" element={<HomePage />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/dmapage" element={<DmaPage />} />
         <Route path="/festanowpage" element={<FestaNowPage />} />
