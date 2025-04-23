@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/leeminsu-site/static/css/main.3706c918.css",
-    "main.js": "/leeminsu-site/static/js/main.7a93afb3.js",
+    "main.css": "/leeminsu-site/static/css/main.fe1f8dff.css",
+    "main.js": "/leeminsu-site/static/js/main.10f1d2ec.js",
     "static/js/453.19a46213.chunk.js": "/leeminsu-site/static/js/453.19a46213.chunk.js",
     "static/media/CullinanGif.gif": "/leeminsu-site/static/media/CullinanGif.37b9e6e226ab74955a3c.gif",
     "static/media/FestanowSplash.png": "/leeminsu-site/static/media/FestanowSplash.a823a2b58024744025d1.png",
@@ -29,6 +29,7 @@
     "static/media/FestanowLogin.png": "/leeminsu-site/static/media/FestanowLogin.f106e2fe4d0c9c5eee9f.png",
     "static/media/react.png": "/leeminsu-site/static/media/react.65ca18b4e9841f85a691.png",
     "static/media/FestanowMeeting.png": "/leeminsu-site/static/media/FestanowMeeting.d2772afa16b71b553bd6.png",
+    "static/media/tistory.png": "/leeminsu-site/static/media/tistory.cc39e9c1b37fe4b6e663.png",
     "static/media/vscode.png": "/leeminsu-site/static/media/vscode.39e0ab028f4278726d50.png",
     "static/media/django.png": "/leeminsu-site/static/media/django.1b75f40cdc0d09bb3426.png",
     "static/media/FestanowMyMeetingApplicationList.png": "/leeminsu-site/static/media/FestanowMyMeetingApplicationList.5146370b9b19f296e6ea.png",
@@ -52,12 +53,12 @@
     "static/media/FestaNowChatRoom.png": "/leeminsu-site/static/media/FestaNowChatRoom.4b65b676f494c0216a93.png",
     "static/media/reactnative1.png": "/leeminsu-site/static/media/reactnative1.3461f75ce5b7a9cb595c.png",
     "index.html": "/leeminsu-site/index.html",
-    "main.3706c918.css.map": "/leeminsu-site/static/css/main.3706c918.css.map",
-    "main.7a93afb3.js.map": "/leeminsu-site/static/js/main.7a93afb3.js.map",
+    "main.fe1f8dff.css.map": "/leeminsu-site/static/css/main.fe1f8dff.css.map",
+    "main.10f1d2ec.js.map": "/leeminsu-site/static/js/main.10f1d2ec.js.map",
     "453.19a46213.chunk.js.map": "/leeminsu-site/static/js/453.19a46213.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3706c918.css",
-    "static/js/main.7a93afb3.js"
+    "static/css/main.fe1f8dff.css",
+    "static/js/main.10f1d2ec.js"
   ]
 }
