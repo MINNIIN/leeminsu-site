@@ -590,7 +590,7 @@
     gap: 20px;
     justify-content: space-between;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .skill-box {
@@ -679,12 +679,12 @@
     max-width: 100%;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
     /* border-radius: 20px; */
-    background: linear-gradient(135deg, #ffffff, #b9b9ad);
-    height: 15vh;
+    background: linear-gradient(135deg, #ffffff);
+    /* height: 15vh; */
 }
 
 .bottom-content {
-    padding: 20px;
+    padding: 10px;
     /* display: flex; */
     text-align: center;
     align-items: center; /* 세로로 가운데 정렬 */

@@ -16,6 +16,7 @@ import MyMeetingApplicationList from "../../images/festanow/FestanowMyMeetingApp
 import MyPage from "../../images/festanow/FestanowMyPage.png";
 import PerformanceList from "../../images/festanow/PerformanceList.png"
 import ChatRoom from "../../images/festanow/FestaNowChatRoom.png";
+import NewChatRoom from "../../images/festanow/FestaNowNewChatRoom.png";
 
 const images = [
   { name: "실행 화면", src: SplashPage },
@@ -30,7 +31,7 @@ const images = [
   { name: "신청서 확인", src: ApplicationsPage },
   { name: "신청서 관리", src: ApplicationOption },
   { name: "내 모임 확인", src: MyMeetingApplicationList },
-  { name: "채팅방 (구현중)", src: ChatRoom },
+  { name: "채팅방 (구현중)", src: NewChatRoom },
   { name: "마이 페이지", src: MyPage },
 ];
 

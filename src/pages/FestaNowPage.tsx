@@ -18,16 +18,19 @@ import FirebaseIcon from '../images/SkillImages/firebase.png'
 import SpringBootIcon from '../images/SkillImages/spring.png'
 import NodejsIcon from '../images/SkillImages/nodejs.png'
 import JiraIcon from '../images/SkillImages/jira_small.png'
+import FigmaIcon from '../images/SkillImages/shortfigma.png'
 
 const techStack = [
     { name: "ReactNative", image: ReactNativeIcon },
     { name: "TypeScript", image: TypeScriptIcon },
-    { name: "JavaScript", image: JavaScriptIcon },
-    { name: "AWS", image: AWSIcon },
-    { name: "Firebase", image: FirebaseIcon },
+    // { name: "JavaScript", image: JavaScriptIcon },
     { name: "SpringBoot", image: SpringBootIcon },
     { name: "Node.js", image: NodejsIcon },
+    { name: "AWS", image: AWSIcon },
+    { name: "Firebase", image: FirebaseIcon },
     { name: "Jira", image: JiraIcon },
+    { name: "Figma", image: FigmaIcon },
+
 ];
 
 const FestaNowPage = () => {
@@ -98,12 +101,18 @@ const FestaNowPage = () => {
                     <div className="slide-content">
                         <h2>기술 스택</h2>
                         <div className="tech-stack-container">
-                            {techStack.map((tech, index) => (
-                                <div key={index} className="tech-box">
-                                    <img src={tech.image} alt={tech.name} className="tech-icon" />
-                                    <p className="tech-name">{tech.name}</p>
-                                </div>
-                            ))}
+                        {techStack.map((tech, index) => (
+                            <div key={index} className="tech-box">
+                            <img
+                            src={tech.image}
+                            alt={tech.name}
+                            className={`tech-icon ${tech.name === "ReactNative" ? "tech-icon-react-native" : ""}`}
+                            />
+                            <p className={`tech-name ${tech.name === "ReactNative" ? "tech-name-react-native" : ""}`}>
+                            {tech.name}
+                            </p>
+                    </div>
+                    ))}
                         </div>
                     </div>
                 </SwiperSlide>

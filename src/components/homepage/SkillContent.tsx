@@ -22,6 +22,7 @@ import GithubIcon from '../../images/SkillImages/github.png'
 import NotionIcon from '../../images/SkillImages/notion.png'
 import JiraIcon from '../../images/SkillImages/jira.png'
 import SourcetreeIcon from '../../images/SkillImages/sourcetree.png'
+import FigmaIcon from '../../images/SkillImages/figma.png'
 import "../../css/HomePage.css"
 
 import { motion } from "framer-motion";
@@ -89,6 +90,7 @@ const SkillContent: React.FC = () => {
 
             {/* 긴 이미지 1개 */}
             <img src={JiraIcon} alt="Frontend Skill" className="wide" loading="lazy"/>
+            <img src={FigmaIcon} alt="Frontend Skill" className="wide" loading="lazy"/>
             </div>
         </div>
 

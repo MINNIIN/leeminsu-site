@@ -97,6 +97,10 @@
     object-fit: contain;
 }
 
+.tech-icon-react-native {
+    margin-bottom: 8px; /* 이미지 아래 여백 */
+  }
+
 /* 기술 이름 */
 .tech-name {
     margin-top: 10px;
