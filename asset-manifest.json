@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/leeminsu-site/static/css/main.031866ab.css",
-    "main.js": "/leeminsu-site/static/js/main.b017d37e.js",
+    "main.css": "/leeminsu-site/static/css/main.909d22f3.css",
+    "main.js": "/leeminsu-site/static/js/main.2a14acc4.js",
     "static/js/453.19a46213.chunk.js": "/leeminsu-site/static/js/453.19a46213.chunk.js",
     "static/media/CullinanGif.gif": "/leeminsu-site/static/media/CullinanGif.37b9e6e226ab74955a3c.gif",
     "static/media/FreeMyPhoto.jpeg": "/leeminsu-site/static/media/FreeMyPhoto.a2488a0045e142e208e3.jpeg",
@@ -23,6 +23,7 @@
     "static/media/typescript.png": "/leeminsu-site/static/media/typescript.d362ac9034fd59687ef3.png",
     "static/media/jira_small.png": "/leeminsu-site/static/media/jira_small.8bd264cec42b5dc2056f.png",
     "static/media/firebase.png": "/leeminsu-site/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
+    "static/media/shortfigma.png": "/leeminsu-site/static/media/shortfigma.de9ddc6c2c43c542a17e.png",
     "static/media/FestanowMain.png": "/leeminsu-site/static/media/FestanowMain.c8f11aebe7db4a067ac2.png",
     "static/media/festanow.png": "/leeminsu-site/static/media/festanow.f256a40f5a821a95851a.png",
     "static/media/FestanowMeetings.png": "/leeminsu-site/static/media/FestanowMeetings.deda413b01f94bc512b1.png",
@@ -49,16 +50,17 @@
     "static/media/jira.png": "/leeminsu-site/static/media/jira.a1edeb86b26eee3142c3.png",
     "static/media/dma_monitoring.png": "/leeminsu-site/static/media/dma_monitoring.746312206f3bbad90f81.png",
     "static/media/FestanowCreateMeeting.png": "/leeminsu-site/static/media/FestanowCreateMeeting.2ca11789394c7cfe567e.png",
+    "static/media/FestaNowNewChatRoom.png": "/leeminsu-site/static/media/FestaNowNewChatRoom.67cd619c66170578c445.png",
+    "static/media/figma.png": "/leeminsu-site/static/media/figma.1475cc523b5f4c537bd9.png",
     "static/media/notion.png": "/leeminsu-site/static/media/notion.2db2471c964edaad1883.png",
-    "static/media/FestaNowChatRoom.png": "/leeminsu-site/static/media/FestaNowChatRoom.4b65b676f494c0216a93.png",
     "static/media/reactnative1.png": "/leeminsu-site/static/media/reactnative1.3461f75ce5b7a9cb595c.png",
     "index.html": "/leeminsu-site/index.html",
-    "main.031866ab.css.map": "/leeminsu-site/static/css/main.031866ab.css.map",
-    "main.b017d37e.js.map": "/leeminsu-site/static/js/main.b017d37e.js.map",
+    "main.909d22f3.css.map": "/leeminsu-site/static/css/main.909d22f3.css.map",
+    "main.2a14acc4.js.map": "/leeminsu-site/static/js/main.2a14acc4.js.map",
     "453.19a46213.chunk.js.map": "/leeminsu-site/static/js/453.19a46213.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.031866ab.css",
-    "static/js/main.b017d37e.js"
+    "static/css/main.909d22f3.css",
+    "static/js/main.2a14acc4.js"
   ]
 }
